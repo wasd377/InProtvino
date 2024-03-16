@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct ProtvinoApp: App {
+    
+
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(ViewModel())
         }
     }
 }
